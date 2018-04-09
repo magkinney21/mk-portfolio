@@ -14,9 +14,12 @@ class App extends Component {
         return (          
           <Router>
               <Route exact path='/' component={Splash}/>
+              
           </Router>       
         );
       }
     }
     
 export default App;
+
+

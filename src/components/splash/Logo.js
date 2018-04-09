@@ -7,10 +7,6 @@ import styled from 'styled-components';
 const Image = styled.img`
     height:50px;
     width:70px;
-    border-radius:10%;
-    margin-right:-20px;
-
-
 `
 class Logo extends Component {
     render() {

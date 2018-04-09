@@ -29,11 +29,13 @@ class NavBar extends Component {
         return (
             <MuiThemeProvider>
                 <AppBar 
-                    style={{background:'white', marginBottom:'20px'}} 
-                    title={<Logo />}    
+                    style={{background:'rgba(0,0,0,0.4)', marginBottom:'20px'}} 
+                    title={<Logo />}   
+                    iconStyleRight={{background:"black"}} 
                     onClick={this.handleToggle}
                     >
                     <Drawer 
+                        style
                         style={{background:'black'}}
                         open={this.state.open} 
                             >
